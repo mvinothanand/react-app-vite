@@ -1,0 +1,124 @@
+{
+    "rajinikanth_films": [
+      {
+        "title": "Baasha",
+        "year_of_release": 1995,
+        "poster_link": "https://pbs.twimg.com/media/G6dCIX2aAAAEsLm?format=jpg&name=medium",
+        "genre": ["Action", "Crime", "Drama"]
+      },
+      {
+        "title": "Sivaji: The Boss",
+        "year_of_release": 2007,
+        "poster_link": "https://pbs.twimg.com/media/Eoy7hfZVEAIIUHy?format=jpg&name=medium",
+        "genre": ["Action", "Drama", "Thriller"]
+      },
+      {
+        "title": "Enthiran (Robot)",
+        "year_of_release": 2010,
+        "poster_link": "https://pbs.twimg.com/media/G3Et8UxW0AAVZtO?format=jpg&name=small",
+        "genre": ["Science Fiction", "Action", "Drama"]
+      },
+      {
+        "title": "Kabali",
+        "year_of_release": 2016,
+        "poster_link": "https://pbs.twimg.com/media/F1o9pdgaUAEidlc?format=jpg&name=4096x4096",
+        "genre": ["Action", "Crime", "Drama"]
+      },
+      {
+        "title": "2.0",
+        "year_of_release": 2018,
+        "poster_link": "https://pbs.twimg.com/media/DxHAJozVYAIv9SL?format=jpg&name=medium",
+        "genre": ["Science Fiction", "Action", "Thriller"]
+      },
+      {
+        "title": "Muthu",
+        "year_of_release": 1995,
+        "poster_link": "https://pbs.twimg.com/media/GIJVGPTW0AARBYq?format=jpg&name=large",
+        "genre": ["Drama", "Musical", "Family"]
+      },
+      {
+        "title": "Padaiyappa",
+        "year_of_release": 1999,
+        "poster_link": "https://pbs.twimg.com/media/G7fcCOdaUAAt-hA?format=jpg&name=large",
+        "genre": ["Action", "Drama", "Romance"]
+      },
+      {
+        "title": "Chandramukhi",
+        "year_of_release": 2005,
+        "poster_link": "https://pbs.twimg.com/media/GjmIglOasAEZtdI?format=jpg&name=small",
+        "genre": ["Horror", "Comedy", "Thriller"]
+      },
+      {
+        "title": "Thalapathi",
+        "year_of_release": 1991,
+        "poster_link": "https://pbs.twimg.com/media/G4-NbW7bQAEf7ro?format=jpg&name=large",
+        "genre": ["Action", "Crime", "Drama"]
+      },
+      {
+        "title": "Annamalai",
+        "year_of_release": 1992,
+        "poster_link": "https://pbs.twimg.com/media/G3hpZ2zWYAAAn2J?format=jpg&name=large",
+        "genre": ["Action", "Drama", "Family"]
+      },
+      {
+        "title": "Lingaa",
+        "year_of_release": 2014,
+        "poster_link": "https://pbs.twimg.com/media/F8NVphmawAApuuR?format=jpg&name=900x900",
+        "genre": ["Action", "Adventure", "Drama"]
+      },
+      {
+        "title": "Kochadaiiyaan",
+        "year_of_release": 2014,
+        "poster_link": "https://pbs.twimg.com/media/Ak3Cp12CIAAHVRk?format=jpg&name=small",
+        "genre": ["Historical", "Action", "Drama"]
+      },
+      {
+        "title": "Kaala",
+        "year_of_release": 2018,
+        "poster_link": "https://pbs.twimg.com/media/DVwyHZcWAAIe9hS?format=jpg&name=large",
+        "genre": ["Action", "Drama", "Political"]
+      },
+      {
+        "title": "Petta",
+        "year_of_release": 2019,
+        "poster_link": "https://pbs.twimg.com/media/Gg7dKWZW4AAAjYY?format=jpg&name=large",
+        "genre": ["Action", "Drama", "Thriller"]
+      },
+      {
+        "title": "Darbar",
+        "year_of_release": 2020,
+        "poster_link": "https://pbs.twimg.com/media/FwAVmobaUAA7Wp9?format=jpg&name=medium",
+        "genre": ["Action", "Crime", "Thriller"]
+      },
+      {
+        "title": "Jailer",
+        "year_of_release": 2023,
+        "poster_link": "https://pbs.twimg.com/media/F4_qyuTa0AAJBCl?format=jpg&name=large",
+        "genre": ["Action", "Comedy", "Thriller"]
+      },
+      {
+        "title": "Moondru Mugam",
+        "year_of_release": 1982,
+        "poster_link": "https://pbs.twimg.com/media/ENedHXGX0AAgmON?format=jpg&name=large",
+        "genre": ["Action", "Crime", "Drama"]
+      },
+      {
+        "title": "Nallavanuku Nallavan",
+        "year_of_release": 1984,
+        "poster_link": "https://pbs.twimg.com/media/EYEjLgZUMAEiEIB?format=jpg&name=small",
+        "genre": ["Action", "Drama", "Romance"]
+      },
+      {
+        "title": "Sri Raghavendra",
+        "year_of_release": 1985,
+        "poster_link": "https://pbs.twimg.com/media/E-Lej2AX0AAZont?format=jpg&name=small",
+        "genre": ["Biography", "Drama", "Spiritual"]
+      },
+      {
+        "title": "Baba",
+        "year_of_release": 2002,
+        "poster_link": "https://pbs.twimg.com/media/FjCliODaAAAd7U7?format=jpg&name=large",
+        "genre": ["Action", "Fantasy", "Political"]
+      }
+    ]
+  }
