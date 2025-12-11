@@ -4,7 +4,7 @@ import MovieCard from './MovieCard';
 export default function Movies () {
     // console.log(jsonData.rajinikanth_films);
     const rajiniMovies = jsonData.rajinikanth_films;
-    const moviesList = rajiniMovies.map((film) => <MovieCard movieInfo={film}/>);
+    const moviesList = rajiniMovies.map((film, index) => <MovieCard movieInfo={film} key={index}/>);
     return (
         <div className="flex flex-col items-center border border-slate-700 p-4 gap-5">
             <h1 className="font-serif text-2xl">Popular Rajinikanth Films</h1>
