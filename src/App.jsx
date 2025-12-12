@@ -1,11 +1,11 @@
 import './index.css';
-import Movies from './Movies';
+import FormComponent from './FormComponent';
 
 function App() {
 
   return (
     <div>
-      <Movies/>
+      <FormComponent/>
     </div>
   )
 }
