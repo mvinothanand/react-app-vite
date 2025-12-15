@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function FormComponent() {
     const [ formInputs, setFormInputs ] = useState({
@@ -8,6 +8,16 @@ export default function FormComponent() {
         quantity: '',
         discount: ''
     });
+
+    const [ count, setCount ] = useState(0);
+
+    useEffect(() => {
+            console.log(`Form component loaded!`);
+    }, []);
+
+    useEffect(() => {
+        console.log('Product Code is changed to ', formInputs.productCode);
+    }, [formInputs.productCode])
 
 
     return (
