@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function FormComponent() {
     const [ formInputs, setFormInputs ] = useState({
@@ -9,19 +9,14 @@ export default function FormComponent() {
         discount: ''
     });
 
-    const [ count, setCount ] = useState(0);
+    const productNameInputRef = useRef(null);
 
-    useEffect(() => {
-            console.log(`Form component loaded!`);
+    useEffect( () => {
+        productNameInputRef.current.focus();
     }, []);
 
-    useEffect(() => {
-        console.log('Product Code is changed to ', formInputs.productCode);
-    }, [formInputs.productCode])
-
-
     return (
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 gap-10">
             <div className="flex flex-col gap-5 justify-center p-10">
                 <h1 className="font-bold text-xl">Product Details Form</h1>
                 <form className="w-3xl p-5 border rounded-md grid grid-cols-2 gap-5">
@@ -30,8 +25,9 @@ export default function FormComponent() {
                             Product Name
                         </label>
                         <input 
+                            ref={productNameInputRef}
                             type="text" 
-                            className="ml-2 border border-black rounded-md "
+                            className="ml-2 border border-black rounded-md focus:bg-red-100"
                             value={formInputs.productName}
                             onChange={(e) => setFormInputs( (prev) => ({ ...prev, productName: e.target.value}))}
                         >
@@ -43,7 +39,7 @@ export default function FormComponent() {
                         </label>
                         <input 
                             type="text" 
-                            className="ml-2 border border-black rounded-md "
+                            className="ml-2 border border-black rounded-md focus:bg-red-100"
                             value={formInputs.productCode}
                             onChange={ (e) => setFormInputs( (prev) => ({ ...prev, productCode: e.target.value })) }
                         >
@@ -55,7 +51,7 @@ export default function FormComponent() {
                         </label>
                         <input 
                             type="number" 
-                            className="ml-2 border border-black rounded-md "
+                            className="ml-2 border border-black rounded-md focus:bg-red-100"
                             value={formInputs.mrp}
                             onChange={ (e) => setFormInputs((prev) => ({ ...prev, mrp: e.target.value})) }
                         >
@@ -67,7 +63,7 @@ export default function FormComponent() {
                         </label>
                         <input 
                             type="number" 
-                            className="ml-2 border border-black rounded-md "
+                            className="ml-2 border border-black rounded-md focus:bg-red-100"
                         >
                         </input>
                     </div>                
@@ -77,7 +73,7 @@ export default function FormComponent() {
                         </label>
                         <input 
                             type="number" 
-                            className="ml-2 border border-black rounded-md "
+                            className="ml-2 border border-black rounded-md focus:bg-red-100"
                         >
                         </input>
                     </div>                
